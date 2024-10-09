@@ -26,7 +26,7 @@ public class DataRoom {
         for(int i=0;i<length;i++){
             System.out.println("Number : " + rooms[i].getNumber());
             System.out.println("Type : " + rooms[i].getType());
-            System.out.println("Number : " + rooms[i].getPrice());
+            System.out.println("Harga : " + rooms[i].getPrice());
             System.out.println("----------------------------------");
         }
     }
@@ -45,7 +45,7 @@ public class DataRoom {
             if(rooms[i].getAvailable() == true){
                 System.out.println("Number : " + rooms[i].getNumber());
                 System.out.println("Type : " + rooms[i].getType());
-                System.out.println("Number : " + rooms[i].getPrice());
+                System.out.println("Harga : " + rooms[i].getPrice());
                 System.out.println("----------------------------------");
             }      
         }
